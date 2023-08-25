@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 8rem;
+  gap: 14.375rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    gap: 0.5rem;
+    height: auto;
+    padding: 1rem;
+  }
+}

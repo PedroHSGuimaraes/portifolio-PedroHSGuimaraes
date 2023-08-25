@@ -1,0 +1,87 @@
+.aboutMe__Section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  width: 70rem;
+  height: 28rem;
+  margin: 10rem 60rem;
+}
+
+.aboutMe__Section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutMe__Section__title {
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: 800;
+  width: 28rem;
+  height: 60px;
+}
+
+.aboutMe__Section__description {
+  color: var(--color-white);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 46.8rem;
+  height: 15rem;
+  text-align: justify;
+}
+
+
+@media (max-width: 1024px) {
+  .aboutMe__Section {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 5rem 2rem;
+  }
+
+  .aboutMe__Section__title {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .aboutMe__Section__description {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .aboutMe__Section {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 3rem 1.5rem;
+  }
+
+  .aboutMe__Section__title {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .aboutMe__Section__description {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .aboutMe__Section__title {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .aboutMe__Section__description {
+    font-size: 12px;
+    width: 100%;
+  }
+}

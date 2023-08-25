@@ -1,0 +1,29 @@
+.btn {
+  width: 11.4rem;
+  height: 3.9rem;
+  flex-shrink: 0;
+  border-radius: 1.2rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    max-width: 20rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    height: 4.2rem;
+    font-size: 1.4rem;
+  }
+}

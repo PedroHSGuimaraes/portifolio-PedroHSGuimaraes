@@ -1,0 +1,45 @@
+.tech__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  gap: 6rem;
+  width: 95rem;
+  height: 25rem;
+  margin: -3rem 59rem;
+}
+
+.tech__Section__title {
+  color: var(--color-white);
+  font-size: clamp(30px, 5vw, 40px);
+  font-weight: 800;
+  width: 28rem;
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+  .tech__Section {
+    width: 100%;
+    margin: 3rem 2rem;
+    align-items: center;
+  }
+
+  .tech__Section__title {
+    font-size: clamp(24px, 5vw, 30px);
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech__Section {
+    gap: 3rem;
+    height: auto;
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .tech__Section__title {
+    font-size: clamp(20px, 5vw, 24px);
+  }
+}

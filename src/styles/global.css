@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #6880ff;
+  --color-primary-hover: #7c91ff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  background: linear-gradient(180deg, #0c0c0c 0%, rgba(12, 12, 12, 0.94) 100%);
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
